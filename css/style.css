@@ -41,10 +41,11 @@ header .menu nav ul{
   color: white;
 }
 
-.bottone{
+a.bottone{
   background-color: rgba(0,97,255,255);
   color: white;
   padding: 10px;
+  text-decoration: none;
 }
 
 .jumbotron{
@@ -94,20 +95,78 @@ header .menu nav ul{
 }
 
 .container{
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
-  background-color: aquamarine;
   padding-top: 100px;
+}
+
+.container h2{
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .container .check{
   padding: 30px 0;
 }
 
-.container .check input span{
-padding-right: 20px;
+.container .check span{
+  padding-right: 20px;
 }
 
+.container .row2{
+  display: flex;
+  justify-content: space-between;
+}
+
+main .container .row2 .column{
+  width: 30%;
+  border: 1px solid #ececed;
+}
+
+main .container .row2 .column p,li,span{
+  font-size: 13px;
+}
+
+.row2 .column p{
+  padding: 10px;
+  text-align: center;
+}
+
+.column .colonne ul{
+  padding-top: 20px;
+}
+
+.row2 .column ul li{
+  padding: 10px;
+  list-style: none;
+}
+
+p.mark{
+  border-bottom: 1px solid #ececed;
+}
+
+.row2 .column ul li h3{
+  font-weight: bold;
+}
+
+.column ul li .fa-sharp{
+  color:blue
+}
+
+.row2 .column .colonne{
+  padding: 10px;
+}
+
+.row3{
+  border: 1px solid #ececed;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.row3 p{
+  padding: 10px;
+}
 
 
 
