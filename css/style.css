@@ -145,6 +145,7 @@ p.mark{
   border-bottom: 1px solid #ececed;
 }
 
+
 .row2 .column ul li h3{
   font-weight: bold;
 }
@@ -164,8 +165,51 @@ p.mark{
   font-size: 13px;
 }
 
-.row3 p{
+.row3 p#special{
   padding: 10px;
+}
+
+.row3 section{
+  display: flex;
+  padding: 25px 15px;
+  justify-content: space-between;
+}
+
+section .column1{
+  text-align: left;
+  width: 60%;
+}
+
+section .column2{
+  width: 40%;
+  text-align: right;
+}
+
+section .column1 p{
+  padding-top: 20px;
+}
+
+.row4{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row4 .column1{
+  width: 60%;
+}
+
+.row4 .column2{
+  width: 40%;
+}
+
+.row4 .column1 img{
+  width: 500px;
+  height: 380px;
+}
+
+.row4 .column2 h3{
+  padding-top: 40px;
 }
 
 
