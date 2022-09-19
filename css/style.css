@@ -33,6 +33,11 @@ header .menu nav ul{
   align-self: center;
 }
 
+.menu nav ul li :hover{
+  text-decoration: underline;
+  color: #61082b;
+}
+
 .menu nav ul li a{
   padding: 10px;
   text-decoration: none;
@@ -219,6 +224,23 @@ section .column1 p{
   background-color: white;
 }
 
+section.Gruppo{
+  margin-top: 60px;
+}
+
+section .row{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Gruppo .column{
+  padding: 20px 10px;
+}
+
+.row .column{
+  width: calc(100/3);
+}
+
 .row4 .column1 img{
   width: 500px;
   height: 400px;
@@ -228,6 +250,193 @@ section .column1 p{
   padding-top: 40px;
 }
 
+.row .column img{
+  width: 300px;
+  height: 250px;
+}
 
+.s-row5{
+  margin: 60px 0;
+  width: 90%;
+  text-align: left;
+}
+
+.row5{
+  width: 60%;
+  text-align: left;
+}
+
+.row5 h2{
+  padding-bottom: 40px;
+}
+
+.s-row6{
+  display: flex;
+  margin-top: 60px;
+}
+
+.s-row6 .column{
+  width: calc(100% / 3);
+  position: relative;
+  height: 360px;
+}
+
+.s-row6 .column .c-img{
+  width: 254px;
+  height: 180px;
+  position: absolute;
+  text-align: center;
+  align-self: auto;
+}
+
+.s-row6 .column .c-img img{
+  width: 180px;
+  height: 180px;
+}
+
+.column #Arizona{
+  top: 0;
+  right: 0;
+  background-color: #61082b;
+}
+#Arizona img{
+  width: 180px;
+  height: 130px;
+}
+
+.column #University{
+  left: 0;
+  bottom: 0;
+  background-color: #0093ce;
+}
+#University img{
+  width: 140px;
+  height: 65px;
+}
+
+.column #Topps{
+  right: 0;
+  bottom: 0;
+  background-color: #ff1c1c;
+}
+#Topps img{
+  width: 130px;
+  height: 130px;
+}
+
+.column #Designit{
+  background-color: #a2d39b;
+}
+#Designit img{
+  width: 150px;
+  height: 140px;
+}
+
+.s-row7{
+  background-color: rgba(180,208,231,255);
+}
+
+.row7{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  align-self: center;
+}
+
+.row7 .column{
+  width: 47%
+}
+
+.row7 .column h2{
+  font-size: 30px;
+  color: #61082b;
+}
+
+.row7 .column p{
+  text-align: right;
+}
+
+.row7 .column p a{
+  color: #6f6f6f;
+  background-color: white;
+}
+
+.s-row8{
+  padding: 50px 0;
+}
+.row8{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.row8 h2{
+  padding-bottom: 40px;
+}
+
+.s-row8 .row8 hr{
+  padding: 0
+}
+
+.paragr .request{
+  display: inline-block;
+}
+.paragr i{
+padding-left: 130px;
+}
+.paragr .reply{
+  display: none;
+}
+.paragr:hover .reply{
+  display: block;
+}
+
+.paragr p{
+  padding: 30px 0;
+}
+
+footer{
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+footer .row9{
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+footer .row9 .column{
+  text-align: left;
+  width: calc(100% / 5);
+}
+
+.row9 .column ul{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.row9 .column ul li{
+  padding: 5px 0;
+}
+
+.row9 .column li a{
+  text-decoration: none;
+  color: white;
+}
+
+.final-footer{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.final-footer hr{
+  width: 70px;
+  margin: 20px;
+  color: grey;
+}
 
 
