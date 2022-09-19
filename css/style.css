@@ -272,64 +272,107 @@ section .row{
 
 .s-row6{
   display: flex;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .s-row6 .column{
   width: calc(100% / 3);
-  position: relative;
   height: 360px;
+  display: flex;
+}
+
+.s-row6 .col-text{
+  width: calc(100% / 3);
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+.s-row6 .col-text img{
+  width: 140px;
+  height: 60px;
+}
+
+.s-row6 .col-text hr{
+  padding: 0;
+  width: 10%;
+}
+
+.s-row6 .col-text p{
+  padding: 20px 0;
 }
 
 .s-row6 .column .c-img{
   width: 254px;
   height: 180px;
-  position: absolute;
   text-align: center;
   align-self: auto;
 }
-
-.s-row6 .column .c-img img{
-  width: 180px;
-  height: 180px;
+.s-row6 .column .sub-column{
+  width: 50%;
 }
 
 .column #Arizona{
-  top: 0;
-  right: 0;
   background-color: #61082b;
 }
 #Arizona img{
-  width: 180px;
-  height: 130px;
+  width: 110px;
+  height: 180px;
 }
 
 .column #University{
-  left: 0;
-  bottom: 0;
   background-color: #0093ce;
 }
 #University img{
-  width: 140px;
-  height: 65px;
+  width: 110px;
+  height: 60px;
 }
 
 .column #Topps{
-  right: 0;
-  bottom: 0;
   background-color: #ff1c1c;
 }
 #Topps img{
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 180px;
 }
 
 .column #Designit{
   background-color: #a2d39b;
 }
 #Designit img{
-  width: 150px;
-  height: 140px;
+  width: 110px;
+  height: 180px;
+}
+
+.column #Bicycle{
+  background-color: #d5001f;
+}
+#Bicycle img{
+  width: 110px;
+  height: 180px;
+}
+
+.column #Lonely{
+  background-color: #0d2481;
+}
+#Lonely img{
+  width: 110px;
+  height: 180px;
+}
+
+.column #Hearts{
+  background-color: rgba(180,208,231,255);
+}
+#Hearts img{
+  width: 110px;
+  height: 180px;
+}
+
+.column #Clear{
+  background-color: #ffd830;
+}
+#Clear img{
+  width: 110px;
+  height: 180px;
 }
 
 .s-row7{
